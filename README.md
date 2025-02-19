@@ -10,3 +10,12 @@ echo "Hello, World!"
 echo "Checking disk usage..."
 df -h
 
+
+# No line 
+read -p "please enter your age " AGE
+ if  [ $AGE -lt 21 ]
+ then
+echo "Help Mommy wash dishes"
+else echo " Please choose your beer"
+
+ fi
